@@ -1,0 +1,218 @@
+<style>
+/* Main */
+  .phb { background-image: url("https://i.imgur.com/5s6VJkT.png") }
+  .phb hr+blockquote{background : white;}
+  .phb p { font-size: 9pt; 
+  		letter-spacing: 0.2px;}
+
+/* Tables */
+  table tr:nth-child(odd) td { background-color: #E0F4FC }
+    .phb table thead th { color: white; 
+    				background-color: #F69337; 
+  					padding-top: 0.3em;
+                    padding-left: 0.5em;
+                    text-transform: uppercase;
+                    }
+    .phb table, td, th   { border: 0.1px solid black; border-collapse: separate;} 
+    .phb table tbody tr td { padding-left: 0.2em; }
+    .phb table thead { display: table-row-group;}
+							
+    					
+
+/* Custom Notes */
+
+   .note
+{
+     color: white;
+     background-color: #2D4864;
+     border-radius: 0px 0px 30px 0px;
+     padding: 10px 20px;  
+     font-family: 'Minion Pro';
+     letter-spacing: 0.5px;
+}    
+
+   .example
+{
+     color: black;
+     background: rgba(204, 203, 199, 0.4);
+     border-radius: 0px 0px 30px 0px;
+     padding: 14px 20px;
+}
+
+/* Footer */
+  .phb:nth-child(odd) .pageNumber { color: black;
+  					right: 15px;
+ 					bottom: 15px;
+  					width: 50px;
+    				text-align: center;
+                    font-family: lato; 
+                   }
+   .phb:nth-child(even) .pageNumber { color: black;
+  					left: 40px;
+ 					bottom: 34px;
+  					width: 50px;
+    				text-align: center;
+                    font-family: lato; 
+                   }
+  .phb .footnote { color: black 
+                font-family: lato 
+                font-weight: bold }
+  .phb:after { background-image:url("none") }
+
+
+ 
+  
+/* Fonts */
+
+.phb h1,
+.phb h2,
+.phb h3,
+.phb h4,
+.phb h5 { letter-spacing: 0.6px;
+}
+
+.phb h1 {
+    font-family: 'Lato';
+        color: #1ABEEF;
+        font-variant: small-caps;
+}
+
+.phb h2 {
+    font-family: 'Bebas Neue';
+        color: #1ABEEF;
+        font-variant: small-caps;
+        font-size: 20pt;
+
+}
+
+.phb h3 {
+    font-family: 'Bebas Neue';
+    color: #F69337;
+    font-variant: small-caps;
+    font-size: 16pt;
+    border-bottom: 1px solid #F69337;
+}
+
+.phb h4 {
+    font-family: 'Bebas Neue';
+        color: #1ABEEF;
+        font-weight: bold;
+        font-variant: small-caps;
+        font-size: 16pt;
+}
+
+.phb h5 {
+    font-family: 'Bebas Neue';
+        color: #326DA1;
+        font-weight: 600;
+        font-variant: uppercase;
+        font-size: 10pt;
+
+}
+
+.phb {
+    font-family: 'Minion Pro';
+}
+
+
+/* Dice and Symbols */
+
+@font-face {
+  font-family: 'Genesys';
+  src: local('Genesys');
+}
+.symbols {
+    font-family: Genesys;
+}
+
+@font-face {
+  font-family: 'Genesys1';
+  src: local('EotE Symbol');
+}
+.dice {
+    font-family: Genesys1;
+}
+
+
+.setback {
+    font-family: Genesys1;
+    color: black;
+}
+
+.boost {
+    font-family: Genesys1;
+    color: #76CDDB;
+}
+
+.challenge {
+    font-family: Genesys1;
+    color: #751317;
+}
+
+.proficiency {
+    font-family: Genesys1;
+    color: #FEF035;
+}
+
+.difficulty {
+    font-family: Genesys1;
+    color: #52287E;
+}
+
+.ability {
+    font-family: Genesys1;
+    color: #46AC4E;
+}
+
+
+</style>
+
+
+<br>
+
+# Test Sheet
+<br>
+
+<div class='note'
+
+### Symbol Key
+
+<span class='symbols'>a =</span> Advantage<br>
+<span class='symbols'>h =</span> Threat<br>
+<span class='symbols'>f =</span> Failure<br>
+<span class='symbols'>s =</span> Success<br>
+<span class='symbols'>t =</span> Triumph<br>
+<span class='symbols'>d =</span> Despair<br>
+<span class='setback'>b = </span>Setback Dice<br>
+<span class='boost'>b = B = </span> Boost Dice<br>
+<span class='difficulty'>d= d = </span> Difficulty Dice<br>
+<span class='ability'>d= D = </span> Ability Dice<br>
+<span class='challenge'>c= c</span> = Challenge Dice<br>
+<span class='proficiency'>c= C = </span> Proficiency Dice <br>
+
+</div>
+<br>
+<div class='example'>
+
+#### Example
+
+Text here
+
+</div>
+
+
+##### Chart of Examples
+| Roll |  Result | 
+|:---:|:---:|
+|<span class='symbols'>a or t</span>| Recover 1 strain. Add <span class='boost'>b</span> to next check by yourself or  ally. 
+|<span class='symbols'>aa or t</span>| Perform an immediate free maneuver (still max 2 per turn). Add <span class='genesys1'>b</span> to next skill check by opponent.
+|<span class='symbols'>aaa or t</span>| Negate enemy defense. Ignore environment. Damage a target's gear/limbs. Gain +1 defense for 1 turn. 
+|<span class='symbols'>t</span>| Upgrade difficulty of target's next check. Upgrade an ally's next check. Do something "vital". 
+|<span class='symbols'>tt</span>| Destroy a target's equipment or limb completely.
+
+
+
+
+
+
+
