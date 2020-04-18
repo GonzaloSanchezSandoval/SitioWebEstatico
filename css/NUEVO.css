@@ -93,6 +93,7 @@ header{
 
 }  
 
+/*División usada para las tablas, para que la página sea responsive design*/
 
   .main {
     width: 70%;
@@ -109,6 +110,7 @@ header{
     box-sizing: border-box;
   
 }
+
   
   @media screen and (max-width: 800px) {
   
@@ -122,11 +124,46 @@ header{
     }
 }
 
+/*División especial de las tablas para critical.html*/
+
+.maincr {
+    width: 40%;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+  
+  .asidecr {
+  
+    width: 60%;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+  
+}
+
+  
+  @media screen and (max-width: 800px) {
+  
+    .maincr{
+
+        width: 100%;
+    }
+
+    .asidecr{
+        width: 100%;
+    }
+}
+
+
+
+
     .body {
 
         background-color: rgb(231, 231, 231);
     }
 
+    
 /* Responsive design para videos */
   .wrapper {
     position: relative;
